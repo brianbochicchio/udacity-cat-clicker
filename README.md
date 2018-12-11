@@ -12,8 +12,8 @@ and watch your score rise!
 
 It's suprisingly rewarding. 
 
-## New Feature
-If you thought clicking one cat was fun. Soon you will be able to click two with unique counters! 
+## New Feature - MOAR CATS!
+If you thought clicking one cat was fun. Now there are two cats with unique counters! 
 
 HOLY MEOW!
 
