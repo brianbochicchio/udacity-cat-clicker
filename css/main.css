@@ -1,0 +1,22 @@
+.kitteh {
+    width: 35%;
+}
+
+#theKittehs {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+figure {
+    margin-inline-start: 0;
+}
+
+li {
+    display: inline;
+}
+
+#theKittehs figure {
+    display: inline-block;
+}
+
+

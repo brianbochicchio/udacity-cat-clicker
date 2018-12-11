@@ -12,6 +12,12 @@ and watch your score rise!
 
 It's suprisingly rewarding. 
 
+## New Feature
+If you thought clicking one cat was fun. Soon you will be able to click two with unique counters! 
+
+HOLY MEOW!
+
+
 ## Supporting materials credits
 
 -- Photo use courtesy of [poplinre](https://www.flickr.com/photos/poplinre/625069434/in/photostream/)
