@@ -20,4 +20,5 @@ HOLY MEOW!
 
 ## Supporting materials credits
 
--- Photo use courtesy of [poplinre](https://www.flickr.com/photos/poplinre/625069434/in/photostream/)
+-- Tigger photo use courtesy of [poplinre](https://www.flickr.com/photos/poplinre/625069434/in/photostream/) 
+-- Patchy photo use courtesy of [chewie](https://www.flickr.com/photos/chewie/2290467335)
