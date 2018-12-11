@@ -2,11 +2,10 @@
 
    /* Next TODO
     *  Script:
-    *  Update image names to be match the cats array
-    *  Update click counter to target the correct cat's counter
+    *  Clean up declarations
     *  
     *  HTML:
-    *  Update the figcaption to accept the upates
+    *  Improve display
     */
 
 let theKittehs = document.querySelector('#theKittehs');
@@ -15,33 +14,34 @@ let clickCount = 0;
 let cats = [
     {
         name: "Tigger",
-        imageName: "tigger.jpg"
+        imageName: "tigger.jpg",
+        clicks: 0
     },
     {
         name: "Patchy",
-        imageName: "patchy.jpg"
+        imageName: "patchy.jpg",
+        clicks: 0
     }
 ]
+let kittehName1 = document.querySelector('#kittehName1');
+let kittehName2 = document.querySelector('#kittehName2');
+
+
 // set cat names
-document.querySelector('#kittehName1').innerHTML = cats[0].name;
-document.querySelector('#kittehName2').innerHTML = cats[1].name;
+kittehName1.innerHTML = cats[0].name;
+kittehName2.innerHTML = cats[1].name;
 
 // Increment the value only when an image is clicked
 theKittehs.addEventListener('click', function(e){
-    let myTarget = e.target.tagName;
-    let myTargetSource = e.srcElement.currentSrc;
     
-    //console.log(e);
-    //console.log("Current Source: " + e.srcElement.currentSrc);
-    //console.log(myTargetSource.includes("kitteh2"));
-    //console.log(myTarget);
-
-    if (myTarget == "IMG"){  
-
-        if(myTargetSource.search("2")) {
-            clickCount += 1;
-            clickCountDisplay.innerHTML = clickCount;
+    if (e.target.tagName === "IMG"){  
+        for (let i = 0; i < cats.length; i++){
+            if(e.srcElement.currentSrc.includes(cats[i].imageName) === true) {
+                cats[i].clicks += 1;
+                e.target.nextElementSibling.innerHTML = `${cats[i].name} has been clicked ${cats[i].clicks} times`;
+            }
         }
+    
     }
 
 });
